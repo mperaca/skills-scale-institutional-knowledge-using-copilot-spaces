@@ -11,16 +11,6 @@ OctoAcme operates on five core principles:
 - **Data-informed**: Measure impact and iterate based on evidence
 - **Psychological safety**: Encourage feedback and continuous learning
 
-## Project Lifecycle at a Glance
-
-OctoAcme projects follow five phases:
-
-1. **Initiation** — Confirm business need, align stakeholders, create one-pager
-2. **Planning** — Break work into shippable increments, estimate, identify risks
-3. **Execution** — Build, test, review, iterate with regular standups and demos
-4. **Release** — Deploy to production with validation and rollback plans
-5. **Retrospective** — Capture learnings and drive continuous improvement
-
 ## Quick Links to Process Docs
 
 | Phase | Document | Purpose |
@@ -33,6 +23,16 @@ OctoAcme projects follow five phases:
 | Release | [Release & Deployment](octoacme-release-and-deployment.md) | Standardizing production releases and rollback procedures |
 | Closure | [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) | Capturing learnings and driving improvements |
 | Reference | [Roles & Personas](octoacme-roles-and-personas.md) | Role definitions and responsibilities |
+
+## Project Lifecycle at a Glance
+
+OctoAcme projects follow five phases:
+
+1. **Initiation** — Confirm business need, align stakeholders, create one-pager
+2. **Planning** — Break work into shippable increments, estimate, identify risks
+3. **Execution** — Build, test, review, iterate with regular standups and demos
+4. **Release** — Deploy to production with validation and rollback plans
+5. **Retrospective** — Capture learnings and drive continuous improvement
 
 ## How to Use This Documentation
 
@@ -49,21 +49,29 @@ OctoAcme projects follow five phases:
 - Risk Register
 - Team Retrospective Notes and Action Items
 
-## Core Roles
+## Document Structure
 
-- **Project Manager (PM)**: Coordinates delivery, schedules, risk, communications
-- **Product Manager (PdM)**: Defines outcomes, prioritizes backlog, measures success
-- **Developers**: Implement features, collaborate on design and testability
-- **QA/Testing**: Validate quality and acceptance criteria
-- **Stakeholders**: Provide inputs and approvals
+Each OctoAcme process document follows a consistent structure:
 
-## Communication Cadence
+- **Purpose**: Why this phase or activity exists
+- **Objectives**: What should be accomplished
+- **Deliverables**: Key artifacts to create
+- **Checklist**: Verification steps to ensure completeness
+- **Templates**: Ready-to-use formats for common artifacts
 
-- Weekly sync between PM + PdM
-- Twice-weekly standups for delivery team (or as agreed)
-- Monthly stakeholder updates
-- Ad-hoc escalations as needed
+## Getting Started with a New Project
 
----
+1. **Project Initiation** — Create a one-pager with problem statement, goals, success metrics, and stakeholders
+2. **Project Planning** — Develop a prioritized backlog, estimate scope, and define your release timeline
+3. **Execution & Tracking** — Execute work in sprints, track progress, and manage blockers
+4. **Release & Deployment** — Prepare and deploy to production with comprehensive testing
+5. **Retrospective** — Conduct a team retrospective and capture learnings for future improvements
 
-*For detailed guidance on each phase, refer to the linked documents above.*
+## Continuous Improvement
+
+OctoAcme's process documentation is living and evolving. If you have feedback, suggested improvements, or new content to add:
+
+- Use the issue template: [Process Doc Update](../.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml)
+- Provide clear rationale for changes
+- Include examples or templates where applicable
+- Align new content with existing principles and practices
