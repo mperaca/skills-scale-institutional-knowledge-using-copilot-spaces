@@ -75,7 +75,78 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 
 ---
 
+## QA / Testing Specialist
+
+### Role Summary
+QA professionals ensure quality standards are met, validate acceptance criteria, and identify defects before release. They collaborate with developers and product managers to define testability and quality gates.
+
+### Responsibilities
+- Define test plans and acceptance criteria alignment
+- Execute manual and automated testing
+- Identify and document defects with reproducible steps
+- Validate fixes and sign-off on releases
+- Participate in Definition of Done discussions
+
+### Goals
+- Ensure customer-facing quality meets standards
+- Reduce production incidents
+- Enable fast, confident releases
+
+### Typical Communication
+- Sprint planning and backlog refinement
+- Test case design reviews
+- Defect triage and release sign-off meetings
+
+---
+
+## Tech Lead / Solution Architect
+
+### Role Summary
+Tech Leads provide technical direction, design reviews, and ensure solutions are scalable, maintainable, and aligned with platform architecture. They bridge product requirements and technical implementation.
+
+### Responsibilities
+- Review technical designs and architecture decisions
+- Mentor developers and guide best practices
+- Identify technical risks and propose mitigations
+- Ensure code quality and documentation standards
+- Represent engineering in cross-team dependency discussions
+
+### Goals
+- Deliver scalable, maintainable solutions
+- Reduce technical debt and rework
+- Enable faster development velocity through clear design
+
+### Typical Communication
+- Design review meetings and architecture discussions
+- Technical spike investigations
+- Code review guidance and mentoring sessions
+
+---
+
+## Stakeholder / Sponsor
+
+### Role Summary
+Stakeholders and Sponsors provide business context, funding, and executive alignment. They prioritize initiatives and unblock resource or organizational barriers.
+
+### Responsibilities
+- Define business objectives and success metrics
+- Provide executive alignment and support
+- Approve scope and resource changes
+- Remove organizational blockers
+- Receive status updates and provide feedback
+
+### Goals
+- Ensure projects deliver measurable business value
+- Maintain executive visibility and support
+- Enable rapid decision-making at escalation points
+
+### Typical Communication
+- Monthly stakeholder updates
+- Escalation meetings for decisions or blockers
+- Phase gate reviews and go/no-go decisions
+
+---
+
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
-
