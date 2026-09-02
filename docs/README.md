@@ -21,7 +21,7 @@ OctoAcme operates on five core principles:
 | Execution | [Execution & Tracking](octoacme-execution-and-tracking.md) | Managing day-to-day delivery and team rhythm |
 | Cross-cutting | [Risk Management & Communication](octoacme-risks-and-communication.md) | Identifying, managing, and escalating risks |
 | Release | [Release & Deployment](octoacme-release-and-deployment.md) | Standardizing production releases and rollback procedures |
-| Closure | [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) | Capturing learnings and driving continuous improvement |
+| Closure | [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) | Capturing learnings and driving improvements |
 | Reference | [Roles & Personas](octoacme-roles-and-personas.md) | Role definitions and responsibilities |
 
 ## Project Lifecycle at a Glance
@@ -43,18 +43,49 @@ OctoAcme projects follow five phases:
 
 ## Key Artifacts
 
-- Project Charter / One-pager
-- Prioritized Product Backlog with Acceptance Criteria
-- Release Plan and Milestone Map
-- Risk Register
-- Team Retrospective Notes and Action Items
+Every OctoAcme project should maintain these key artifacts:
 
-## Quick Reference
+- **Project Charter / One-pager** — Problem, goal, success metrics, stakeholders
+- **Prioritized Product Backlog** — Items with clear acceptance criteria
+- **Release Plan and Milestone Map** — Timeline and key deliverables
+- **Risk Register** — Tracked risks with mitigation plans
+- **Team Retrospective Notes** — Learnings and action items
 
-- Branching & PR conventions: See repository CONTRIBUTING or README
-- Where to add process docs for Copilot Spaces: Add into `.copilot/` or `docs/` and reference from this README
-- To request a doc update: Use the issue template: `.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml`
+## Getting Started
+
+### For Project Managers
+1. Read [Project Management Overview](octoacme-project-management-overview.md) to understand core principles and roles
+2. Use [Project Initiation](octoacme-project-initiation.md) to kick off new projects
+3. Reference [Risk Management & Communication](octoacme-risks-and-communication.md) for escalation and status updates
+
+### For Product Managers
+1. Review [Project Management Overview](octoacme-project-management-overview.md) for context on roles
+2. Use [Project Planning](octoacme-project-planning.md) to define backlogs and acceptance criteria
+3. Track success metrics outlined in [Execution & Tracking](octoacme-execution-and-tracking.md)
+
+### For Developers
+1. Start with [Project Management Overview](octoacme-project-management-overview.md) to understand OctoAcme culture
+2. Reference [Execution & Tracking](octoacme-execution-and-tracking.md) for workflows and quality standards
+3. Use [Release & Deployment](octoacme-release-and-deployment.md) when preparing releases
+
+## Contributing to Process Docs
+
+Found a gap or want to improve our processes? Use the issue template to propose updates:
+- Template: `.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml`
+- All updates are tracked and reviewed collaboratively
+
+## Communication Cadence
+
+OctoAcme maintains structured communication at multiple levels:
+- **Daily standups** — 15 min team sync on progress and blockers
+- **Weekly PM + PdM sync** — alignment on priorities and risks
+- **Twice-weekly team standups** — delivery progress and dependencies
+- **Monthly stakeholder updates** — high-level progress and milestones
+- **Sprint/milestone demos** — show progress and gather feedback
+
+For detailed communication guidance, see [Risk Management & Communication](octoacme-risks-and-communication.md).
 
 ---
 
-If you'd like, I can open a pull request for this change or update the issue to mark the acceptance criteria completed. 
+**Last updated**: See git history for revision details  
+**Questions?** Reach out to your Project Manager or check the specific process doc for your area
