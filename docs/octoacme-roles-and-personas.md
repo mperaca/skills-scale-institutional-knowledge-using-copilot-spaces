@@ -26,6 +26,12 @@ Developers design, build, test, and deliver software components. They collaborat
 - PR descriptions and code review comments
 - Technical design docs when needed
 
+### Interactions with Other Roles
+- **With Product Managers**: Collaborate on acceptance criteria, provide technical input on feasibility
+- **With Project Managers**: Participate in planning, report on progress and blockers
+- **With QA Specialists**: Work together on testability, respond to defect reports
+- **With Tech Leads**: Seek design guidance, participate in code reviews
+
 ---
 
 ## Product Managers
@@ -48,6 +54,12 @@ Product Managers define what should be built to deliver customer and business va
 - Weekly alignment with PM and engineering leads
 - Roadmap updates and stakeholder briefings
 - Acceptance criteria and feature specs
+
+### Interactions with Other Roles
+- **With Developers**: Define requirements and acceptance criteria, review implementations
+- **With Project Managers**: Align on scope and timelines, communicate priorities
+- **With Stakeholders**: Present business cases and outcomes, gather feedback
+- **With QA Specialists**: Define quality standards and acceptance criteria validation
 
 ---
 
@@ -73,9 +85,114 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 - Risk registers and decision logs
 - Coordination via project boards and meeting facilitation
 
+### Interactions with Other Roles
+- **With Developers & QA**: Track progress, remove blockers, manage capacity
+- **With Product Managers**: Ensure alignment on priorities and scope
+- **With Tech Leads**: Understand technical dependencies and risks
+- **With Stakeholders**: Provide regular updates and escalate decisions
+
+---
+
+## QA / Testing Specialist
+
+### Role Summary
+QA professionals ensure quality standards are met, validate acceptance criteria, and identify defects before release. They collaborate with developers and product managers to define testability and quality gates.
+
+### Responsibilities
+- Define test plans and acceptance criteria alignment
+- Execute manual and automated testing
+- Identify and document defects with reproducible steps
+- Validate fixes and sign-off on releases
+- Participate in Definition of Done discussions
+- Collaborate on test strategy and coverage planning
+
+### Goals
+- Ensure customer-facing quality meets standards
+- Reduce production incidents
+- Enable fast, confident releases
+- Build automation that reduces manual testing burden
+
+### Typical Communication
+- Sprint planning and backlog refinement
+- Test case design reviews
+- Defect triage and release sign-off meetings
+- Automated test results and quality metrics
+
+### Interactions with Other Roles
+- **With Developers**: Review code for testability, report defects, validate fixes
+- **With Product Managers**: Ensure acceptance criteria are testable and comprehensive
+- **With Project Managers**: Report test status and quality metrics, flag release risks
+- **With Tech Leads**: Participate in design reviews to understand technical approach and edge cases
+
+---
+
+## Tech Lead / Solution Architect
+
+### Role Summary
+Tech Leads provide technical direction, design reviews, and ensure solutions are scalable, maintainable, and aligned with platform architecture. They bridge product requirements and technical implementation.
+
+### Responsibilities
+- Review technical designs and architecture decisions
+- Mentor developers and guide best practices
+- Identify technical risks and propose mitigations
+- Ensure code quality and documentation standards
+- Represent engineering in cross-team dependency discussions
+- Guide technology selection and evaluate trade-offs
+
+### Goals
+- Deliver scalable, maintainable solutions
+- Reduce technical debt and rework
+- Enable faster development velocity through clear design
+- Build shared knowledge and mentorship across the team
+
+### Typical Communication
+- Design review meetings and architecture discussions
+- Technical spike investigations
+- Code review guidance and mentoring sessions
+- Technical decision logs and design documentation
+
+### Interactions with Other Roles
+- **With Developers**: Provide design guidance, review technical implementations, mentor on best practices
+- **With Project Managers**: Identify and communicate technical risks, clarify dependencies
+- **With Product Managers**: Provide feasibility input during planning, discuss technical trade-offs
+- **With QA Specialists**: Review test plans for coverage, identify edge cases from architecture perspective
+
+---
+
+## Stakeholder / Sponsor
+
+### Role Summary
+Stakeholders and Sponsors provide business context, funding, and executive alignment. They prioritize initiatives and unblock resource or organizational barriers.
+
+### Responsibilities
+- Define business objectives and success metrics
+- Provide executive alignment and support
+- Approve scope and resource changes
+- Remove organizational blockers
+- Receive status updates and provide feedback
+- Champion initiatives within the broader organization
+
+### Goals
+- Ensure projects deliver measurable business value
+- Maintain executive visibility and support
+- Enable rapid decision-making at escalation points
+- Align projects with organizational strategy
+
+### Typical Communication
+- Monthly stakeholder updates
+- Escalation meetings for decisions or blockers
+- Phase gate reviews and go/no-go decisions
+- Executive briefings and outcome reporting
+
+### Interactions with Other Roles
+- **With Project Managers**: Receive status updates, provide escalation support, make go/no-go decisions
+- **With Product Managers**: Align on business objectives and success metrics, provide feedback on outcomes
+- **With Developers & QA**: Informed of progress and quality through PM and PdM
+- **With Tech Leads**: Consulted on major technical decisions that impact timeline or resources
+
 ---
 
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
-
+- Refer to the "Interactions with Other Roles" sections to understand cross-functional collaboration patterns.
